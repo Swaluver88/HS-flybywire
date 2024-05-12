@@ -1069,6 +1069,7 @@ private:
 
       //--------------------------------------------
       // Center Tank transfer routine
+      double lineFlowRatio = 0;
       if (xfrValveCenterLeftOpen && xfrValveCenterRightOpen)
       {
         if (lineLeftToCenterFlow < 0.1 && lineRightToCenterFlow < 0.1)
